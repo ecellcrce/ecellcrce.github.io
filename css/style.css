@@ -4265,8 +4265,12 @@ height:100%;
 .cen{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 
