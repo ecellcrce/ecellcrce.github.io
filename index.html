@@ -22,7 +22,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <body>
+    <body onload="myfunction()">
+        <div id="loader"></div>
         
         <!--================Header Menu Area =================-->
         <header class="header_area">
@@ -183,7 +184,7 @@
                                     	<br>
                                         <h4>THE IDEA COMPETITION</h4>
                                         <p>Create a proposal of you idea and send it to us.Idea Proposals will be evaluated by industry professionals. Selected Ideas will get exciting prizes will move on to next round, Design Competition.</p>
-                                       		<a class="main_btn cen" href="iic.html">View More</a>
+                                       		<a class="main_btn cen" href="startup.html">View More</a>
                                        <br><br><br><br>
                                         <div class="quotes cen">
                                 <h3>Instructions</h3><p></p>
@@ -414,7 +415,15 @@ img {
     </footer>
 		<!--================ End footer Area  =================-->
         
-        
+    <script>
+            
+            var preloader = document.getElementById('loader');
+
+            function myfunction(){
+                preloader.style.display ='none';
+            }
+
+        </script>    
         
         
         

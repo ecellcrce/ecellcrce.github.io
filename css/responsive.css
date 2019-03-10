@@ -380,7 +380,7 @@
 }
 }
 
-@media (max-width:720px) {
+@media (max-width: 480px) {
 	.register{
 	width:100%;
 	height:100%;

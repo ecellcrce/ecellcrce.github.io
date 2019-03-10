@@ -4217,15 +4217,36 @@ height:100%;
  /* height: 600px; */
 }
 
-/*.parallax2{
-  background: url("../img/background/img9.jpg") no-repeat center;
+
+.parallax2{
+  background: url("../img/background/bulbxx.jpg") no-repeat center;
+  -webkit- background-size: cover;
+  -moz- background-size: cover;
+  -o- background-size: cover;
+  background-size: cover;
+  height: 100%; 
+}
+
+
+
+.parallax3{
+  background: url("../img/background/crce.jpg") no-repeat center;
+  -webkit- background-size: cover;
+  -moz- background-size: cover;
+  -o- background-size: cover;
+  background-size: cover;
+  height: 100%; 
+}  
+
+.wall{
+  background: url("../img/background/wall.jpg") no-repeat center;
   -webkit- background-size: cover;
   -moz- background-size: cover;
   -o- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px; 
-}  */
+  height: 700px; 
+}
 
 .counter-up {
     background: #fff;
@@ -4420,4 +4441,13 @@ body {
 }
 .about-us{
   padding-top: 25px;
+}
+
+
+#loader{
+  position: fixed;
+  width:100%;
+  height: 100vh;
+  background: #fff url('img/team/bulb.gif') no-repeat  center; 
+  z-index: 99999;
 }
